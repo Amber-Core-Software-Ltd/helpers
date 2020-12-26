@@ -1,0 +1,19 @@
+{
+  "name": "amber-core/helpers",
+  "license": "MIT",
+  "description": "Pack of Symfony Helpers",
+  "keywords": [
+    "helpers",
+    "AmberCore",
+    "Amber"
+  ],
+  "autoload": {
+    "psr-4": {
+      "AmberCore\\Helper\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "doctrine/orm": "^2.8"
+  }
+}
